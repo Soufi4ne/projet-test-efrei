@@ -5,7 +5,7 @@
   "type": "module",
   "main": "dist/index.js",
   "scripts": {
-    "test": "vitest run",
+    "test": "vitest run && echo \"✅ Every test has passed! Your poker library is working perfectly!\"",
     "test:watch": "vitest",
     "build": "tsc",
     "dev": "tsc --watch"

@@ -6,6 +6,7 @@ export function isValidHand(hand: Hand): boolean {
     return false;
   }
 
+  // verification if hand have exaclty 5 cards
   const seen = new Set<string>();
   for (const card of hand) {
     const cardKey = `${card.value}-${card.suit}`;

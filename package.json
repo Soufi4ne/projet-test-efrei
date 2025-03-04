@@ -1,0 +1,22 @@
+{
+  "name": "projet-test-driven-efrei",
+  "version": "1.0.0",
+  "description": "Une bibliothèque TypeScript pour comparer des mains de poker",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "build": "tsc",
+    "dev": "tsc --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.13.9",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.2",
+    "vitest": "^3.0.7"
+  }
+}
